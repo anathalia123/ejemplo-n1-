@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EJEMPLOS</title>
+</head>
+<body>
+
+<h2>EJEMPLOS</h2>
+
+<form action="/action_page.php">
+     <label for="fname">Primer nombre:</label>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="lname">Apellido</label>
+     <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="peliculas">La mejor pelicula de Laika:</label>
+    <select name="peliculas" id="pelicula">
+        <option value="coraline">Coraline</option>
+        <option value="paranorman">Paranorman</option>
+        <option value="kubo">Kubo</option>
+        <option value="boxtrolls">Boxtrolls</option>
+    </select><br><br>
+    <label for="message">Escribe tu comentario:</label>
+    <textarea id="message" name="message" rows="4" cols="50">
+        Miau Miau Miau Miau Miau
+    </textarea><br><br>
+    <button type="button" onclick="alert('Jelou')">Click Me!</button><br><br>
+    <fieldset>
+        <legend>Persona:</legend>
+        <label for="fname2">Nombre:</label>
+        <input type="text" id="fname2" name="fname2" value="Ana"><br><br>
+        <label for="lname2">Apellido:</label>
+        <input type="text" id="lname2" name="lname2" value="Arias"><br><br>
+    </fieldset><br><br>
+    <label for="browsers">Elige tu navegador:</label>
+    <input list="browsers" id="browser" name="browser">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist><br><br>
+    
+    
+</body>
+</html>
